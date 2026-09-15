@@ -17,13 +17,13 @@ To test the effectiveness of this designed prompt, I ran a performance compariso
 
 ### Naive Version (Baseline)
 * **Prompt Text:** *"Make this resume bullet sound better: Helped manage social media pages and posted updates."*
-* **Gemini Evaluator Score:** **65 / 100**
-* **Evaluator Feedback:** The naive prompt produced minor tweaks (like changing "helped manage" to "assisted in managing"), but it did not add metrics, scale, or a results-driven structure. It remained a passive duty description.
+* **Gemini Evaluator Score:** **10 / 100**
+* **Evaluator Feedback:** To dramatically improve this prompt, apply a structured framework (such as R-T-F or C-A-R-E), assign a professional persona (e.g., Senior Resume Strategist), and require specific quantifiable metrics and action-oriented verbs.
 
 ### Designed Version (Optimized)
 * **Prompt Text:** *(Using the structured R-T-E-F prompt from `prompt.md`)*
-* **Gemini Evaluator Score:** **97 / 100**
-* **Evaluator Feedback:** Using few-shot examples and structured format requirements caused the AI to generate dynamic, professional variations complete with placeholder metrics (e.g., growing engagement by X%) that immediately catch a recruiter's eye.
+* **Gemini Evaluator Score:** **100 / 100**
+* **Evaluator Feedback:** By establishing an Executive Resume Writer persona, providing concrete transformation examples, and requiring 3 categorized output variations based on the Action Verb + Task + Measurable Result formula, it guarantees a tailored, highly actionable set of professional bullet points.
 
 ### Conclusion
 Providing clear few-shot examples combined with rigid structural constraints successfully shifted the AI from making minor vocabulary tweaks to completely re-engineering the statement into a high-impact achievement.

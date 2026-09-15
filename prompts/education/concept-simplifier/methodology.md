@@ -26,4 +26,4 @@ To test the effectiveness of this designed prompt, I ran a performance compariso
 * **Evaluator Feedback:** This designed prompt scores significantly higher than the naive baseline prompt. By establishing an expert communicator role (Feynman/Nye persona), requiring step-by-step reasoning, and enforcing a rigid 4-part output format (including a real-world analogy and review questions), the prompt ensures a clear, engaging explanation tailored for high school students.
 
 ### Conclusion
-Structuring the request with a communication persona and zero-shot chain-of-thought turned a boring textbook summary into an engaging, multi-layered study tool.
+Structuring the request with a communication persona and zero-shot chain-of-thought turned a boring textbook summary into an engaging, multi-layered study tool that improves learning efficiency.

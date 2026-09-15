@@ -1,1 +1,4 @@
+Comparison & Feedback
+This designed prompt represents a massive upgrade over the naive baseline. By combining a zero-shot chain-of-thought approach ("Think through this step by step before writing...") with explicit formatting constraints and a relatable persona, it transforms a simple request into a highly structured educational engine. The inclusion of a mandatory "The Real-World Analogy" section ensures that complex concepts like LLM response generation are explained visually rather than purely technically.
 
+FINAL SCORE: 100

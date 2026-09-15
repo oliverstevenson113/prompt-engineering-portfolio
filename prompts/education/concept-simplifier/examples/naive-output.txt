@@ -1,1 +1,4 @@
+Comparison & Feedback
+This is a standard naive prompt that asks a high-level question without applying any prompt engineering techniques. To improve performance, structure the request using a clear framework like R-T-F (Role, Task, Format) or T-A-G (Task, Action, Goal), define your background knowledge level as context, and set specific constraints on format, technical depth, and tone.
 
+FINAL SCORE: 0

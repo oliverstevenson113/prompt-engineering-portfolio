@@ -15,15 +15,15 @@
 
 To test the effectiveness of this designed prompt, I ran a performance comparison using the Gemini Gem Prompt Evaluator.
 
-### Naive Version (Baseline)
+### Naive Version 
 * **Prompt Text:** *"Explain photosynthesis based on these notes: Plants take in sunlight, water, and carbon dioxide to make glucose and oxygen. It happens in the chloroplasts. There are light-dependent reactions and the Calvin cycle."*
-* **Gemini Evaluator Score:** **68 / 100**
-* **Evaluator Feedback:** The naive prompt generated a textbook-style definition. While factually accurate, it was dry, poorly structured, and failed to make the biochemical process intuitive or engaging for a student trying to study.
+* **Gemini Evaluator Score:** **35 / 100**
+* **Evaluator Feedback:** This is a basic, naive prompt that provides good source notes but fails to set output boundaries, structural frameworks, or persona constraints.
 
-### Designed Version (Optimized)
+### Designed Version 
 * **Prompt Text:** *(Using the structured R-T-F-C prompt from `prompt.md`)*
-* **Gemini Evaluator Score:** **95 / 100**
-* **Evaluator Feedback:** The structured constraints and persona dramatically improved the output. The AI created a vivid real-world analogy (treating the chloroplast like a solar-powered kitchen), broke down the light and dark reactions logically, and added practice check questions.
+* **Gemini Evaluator Score:** **100 / 100**
+* **Evaluator Feedback:** This designed prompt scores significantly higher than the naive baseline prompt. By establishing an expert communicator role (Feynman/Nye persona), requiring step-by-step reasoning, and enforcing a rigid 4-part output format (including a real-world analogy and review questions), the prompt ensures a clear, engaging explanation tailored for high school students.
 
 ### Conclusion
 Structuring the request with a communication persona and zero-shot chain-of-thought turned a boring textbook summary into an engaging, multi-layered study tool.

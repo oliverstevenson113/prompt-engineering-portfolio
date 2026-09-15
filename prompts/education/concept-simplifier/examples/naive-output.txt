@@ -1,4 +1,13 @@
-Comparison & Feedback
-This is a basic, naive prompt that provides good source notes but fails to set output boundaries, structural frameworks, or persona constraints. To achieve a much higher score, structure the prompt using a framework (like R-T-F or C-A-R-E), assign an educational persona, specify the target reading level (e.g., middle school vs. college), and define exact formatting requirements (such as bullet points or numbered steps).
+Rubric Breakdown
+Clarity & Specificity: 0/30 - The prompt asks a broad, open-ended question without setting any constraints, specific focus areas, or clear boundaries.
 
-FINAL SCORE: 35
+Structure & Framework Use: 0/30 - The user submitted a raw, unstructured naive prompt with no deliberate framework or labeled components.
+
+Context & Inputs: 0/20 - Provides no background context, target audience, or operational environment to frame the explanation.
+
+Output Requirements: 0/20 - Fails to specify any target length, visual format, tone, or structural guidelines for the output.
+
+Comparison & Feedback
+This is a standard naive prompt that asks a high-level question without applying any prompt engineering techniques. To improve performance, structure the request using a clear framework like R-T-F (Role, Task, Format) or T-A-G (Task, Action, Goal), define your background knowledge level as context, and set specific constraints on format, technical depth, and tone.
+
+FINAL SCORE: 0

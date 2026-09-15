@@ -4,10 +4,10 @@
 
 ### 1. Structure Choice: C-A-R-E-S Framework
 * **Role:** Sets the persona as a senior engineer/mentor so the tone is encouraging rather than condescending.
-* **Context:** Establishes the user's skill level (beginner) so the AI scales its language appropriately.
+* **Context:** Establishes the user's skill level as beginner so the AI scales its language appropriately.
 * **Task & Steps:** Enforces a Chain-of-Thought approach where the AI must explain the root cause *before* offering code.
 
-### 2. Technique Choice: Chain-of-Thought (CoT)
+### 2. Technique Choice: Chain-of-Thought 
 * **Why:** Programming bugs require logical deduction. Forcing the AI to break down the error message and isolate the flaw step-by-step drastically reduces hallucinations or syntax shortcuts.
 
 ---
@@ -19,6 +19,7 @@ To test the effectiveness of this designed prompt, I ran a performance compariso
 ### Naive Version 
 * **Prompt Text:** *"Fix this error for me in Python: TypeError: can only concatenate str (not int) to str. Code: message = 'I am' + age + 'years old.' print(message) where age = 25"*
 * **Gemini Evaluator Score:** **10 / 100**
+* **Evaluator Feedback:** This is a naive, unstructured prompt that relies on basic query-style input rather than deliberate prompt design. While supplying the error message and code snippet gives the AI minimal material to diagnose the bug, the prompt lacks a clear framework, defined constraints, or explicit output formatting instructions. Incorporating a designated persona, requesting a step-by-step explanation, and specifying the desired fix format will significantly improve performance.
 
 ### Designed Version 
 * **Prompt Text:** *(Using the structured C-A-R-E-S prompt from `prompt.md`)*

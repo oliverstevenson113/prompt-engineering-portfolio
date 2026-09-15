@@ -1,0 +1,4 @@
+Comparison & Feedback
+The designed prompt scored maximum points across all criteria and dramatically outperforms the naive baseline ("Make this resume bullet sound better: Helped manage social media pages and posted updates"). By establishing an Executive Resume Writer persona, providing concrete transformation examples, and requiring 3 categorized output variations based on the Action Verb + Task + Measurable Result formula, it guarantees a tailored, highly actionable set of professional bullet points.
+
+FINAL SCORE: 100

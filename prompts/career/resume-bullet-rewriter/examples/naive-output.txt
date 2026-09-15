@@ -1,3 +1,12 @@
+Rubric Breakdown
+Clarity & Specificity: 0/30 - The prompt asks a broad, single-sentence question ("Make this resume bullet sound better: Helped manage social media pages and posted updates") without defining specific constraints, boundaries, or targeted skill sets.
+
+Structure & Framework Use: 0/30 - The prompt is completely unformatted and unstructured, relying on a naive request without utilizing any prompt engineering framework or labeled sections.
+
+Context & Inputs: 10/20 - Provides the specific resume bullet point to rewrite, but lacks crucial background context such as target job titles, metrics, or career level.
+
+Output Requirements: 0/20 - Fails to specify tone, desired length, format (e.g., bulleted options vs. a single rewrite), or active verb requirements, leaving output decisions entirely up to the AI.
+
 Comparison & Feedback
 This is a naive prompt that directly asks for an edit without guiding the AI's persona, reasoning process, or output structure. To dramatically improve this prompt, apply a structured framework (such as R-T-F or C-A-R-E), assign a professional persona (e.g., Senior Resume Strategist), and require specific quantifiable metrics and action-oriented verbs.
 

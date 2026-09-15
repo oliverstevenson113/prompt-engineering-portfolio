@@ -1,4 +1,13 @@
-# Comparison & Feedback
+Rubric Breakdown
+Clarity & Specificity: 30/30 - The core objective of diagnosing and fixing the Python error is explicit, and boundaries around plain language and explanation depth are clearly defined.
+
+Structure & Framework Use: 30/30 - Excellent use of a custom framework (Role, Context, Task, Steps, Constraints) where every section contains substantive, actionable instructions.
+
+Context & Inputs: 20/20 - Provides ideal context by specifying the target user (a beginner programmer), the programming environment, error message, and snippet.
+
+Output Requirements: 20/20 - Defines a mandatory 4-step Chain-of-Thought structure for the output, along with constraints on tone and technical jargon.
+
+Comparison & Feedback
 This designed prompt is exceptional compared to a naive "fix my code" request. By defining a patient mentor persona, outlining a specific 4-step reasoning process, and requiring plain-English explanations with commented code, it ensures the LLM delivers an educational tutorial rather than just a raw code fix.
 
 FINAL SCORE: 100

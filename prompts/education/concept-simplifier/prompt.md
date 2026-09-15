@@ -17,7 +17,7 @@ Think through this step by step before writing your final explanation:
 - **The Big Picture:** A 2-sentence summary of the concept.
 - **The Real-World Analogy:** A creative comparison to everyday life.
 - **Step-by-Step Breakdown:** Bullet points explaining how it works.
-- **Quick Check:** 3 review questions to test understanding.
+- **Quick Test:** 3 review questions to test understanding.
 
 ## Constraints
 - Do not use advanced jargon without a direct, simple definition.

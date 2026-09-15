@@ -1,0 +1,4 @@
+# Comparison & Feedback
+This is a naive, unstructured prompt that relies on basic query-style input rather than deliberate prompt design. While supplying the error message and code snippet gives the AI minimal material to diagnose the bug, the prompt lacks a clear framework (such as R-T-F or T-A-G), defined constraints, or explicit output formatting instructions. Incorporating a designated persona, requesting a step-by-step explanation, and specifying the desired fix format will significantly improve performance.
+
+FINAL SCORE: 10

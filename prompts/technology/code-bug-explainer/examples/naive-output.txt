@@ -1,4 +1,13 @@
-# Comparison & Feedback
+Rubric Breakdown
+Clarity & Specificity: 0/30 - The prompt asks a generic troubleshooting question without defining clear rules, boundaries, or constraints.
+
+Structure & Framework Use: 0/30 - The prompt is completely unformatted and does not utilize any structured framework or deliberate components.
+
+Context & Inputs: 10/20 - Provides the specific Python code and exact error message, but lacks wider background context such as the intended goal or target audience.
+
+Output Requirements: 0/20 - Leaves the output requirements, length, and tone entirely up to the AI.
+
+Comparison & Feedback
 This is a naive, unstructured prompt that relies on basic query-style input rather than deliberate prompt design. While supplying the error message and code snippet gives the AI minimal material to diagnose the bug, the prompt lacks a clear framework (such as R-T-F or T-A-G), defined constraints, or explicit output formatting instructions. Incorporating a designated persona, requesting a step-by-step explanation, and specifying the desired fix format will significantly improve performance.
 
 FINAL SCORE: 10

@@ -1,3 +1,12 @@
+Rubric Breakdown
+Clarity & Specificity: 30/30 - The core objective of optimizing a weak resume bullet point using a specific formula is explicit, with strict functional boundaries.
+
+Structure & Framework Use: 30/30 - Excellent use of a custom framework (Role, Task, Examples, Format) where every section is filled with relevant, actionable content.
+
+Context & Inputs: 20/20 - Provides clear audience context (resume optimization for ATS/hiring managers) and uses an explicit placeholder for the input snippet.
+
+Output Requirements: 20/20 - Explicitly mandates exactly 3 distinct, categorized variations (Metrics-Focused, Leadership-Focused, Efficiency-Focused).
+
 Comparison & Feedback
 The designed prompt scored maximum points across all criteria and dramatically outperforms the naive baseline ("Make this resume bullet sound better: Helped manage social media pages and posted updates"). By establishing an Executive Resume Writer persona, providing concrete transformation examples, and requiring 3 categorized output variations based on the Action Verb + Task + Measurable Result formula, it guarantees a tailored, highly actionable set of professional bullet points.
 

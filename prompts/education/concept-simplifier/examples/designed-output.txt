@@ -1,3 +1,12 @@
+Rubric Breakdown
+Clarity & Specificity: 30/30 - The primary objective is clear and the constraint forbidding jargon without definitions provides exact boundaries.
+
+Structure & Framework Use: 30/30 - Excellent structure utilizing a custom multi-part framework (Role, Task, Instructions & Approach, Format, Constraints) filled with substantive content.
+
+Context & Inputs: 20/20 - Provides clear audience context (high school students) and provides specific source material via the input notes on photosynthesis.
+
+Output Requirements: 20/20 - Explicitly mandates a 4-part structural format, tone expectations, and zero-jargon constraints.
+
 Comparison & Feedback
 This designed prompt scores significantly higher than the naive baseline prompt. By establishing an expert communicator role (Feynman/Nye persona), requiring step-by-step reasoning, and enforcing a rigid 4-part output format (including a real-world analogy and review questions), the prompt ensures a clear, engaging explanation tailored for high school students.
 

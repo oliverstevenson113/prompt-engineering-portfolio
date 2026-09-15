@@ -16,15 +16,14 @@
 
 To test the effectiveness of this designed prompt, I ran a performance comparison using the Gemini Gem Prompt Evaluator.
 
-### Naive Version (Baseline)
-* **Prompt Text:** *"Fix this error for me in Python: TypeError: can only concatenate str (not int) to str. Code: message = 'I am ' + age + ' years old.' where age = 25"*
-* **Gemini Evaluator Score:** **62 / 100**
-* **Evaluator Feedback:** The output gave the correct code immediately, but provided zero explanation of *why* Python throws type errors or how string concatenation works. It solved the immediate syntax bug without teaching the underlying concept.
+### Naive Version 
+* **Prompt Text:** *"Fix this error for me in Python: TypeError: can only concatenate str (not int) to str. Code: message = 'I am' + age + 'years old.' print(message) where age = 25"*
+* **Gemini Evaluator Score:** **10 / 100**
 
-### Designed Version (Optimized)
+### Designed Version 
 * **Prompt Text:** *(Using the structured C-A-R-E-S prompt from `prompt.md`)*
-* **Gemini Evaluator Score:** **96 / 100**
-* **Evaluator Feedback:** The structured role, explicit step-by-step breakdown, and constraints forced the model to act like a true teacher. It broke down the literal meaning of the error, explained data types clearly, and provided a well-commented code snippet. 
+* **Gemini Evaluator Score:** **100 / 100**
+* **Evaluator Feedback:** This designed prompt is exceptional compared to a naive "fix my code" request. By defining a patient mentor persona, outlining a specific 4-step reasoning process, and requiring plain-English explanations with commented code, it ensures the LLM delivers an educational tutorial rather than just a raw code fix.
 
 ### Conclusion
 Deliberate design transformed a quick, transactional fix into a valuable learning experience, proving that structure and Chain-of-Thought prompting yield significantly higher quality educational outputs.

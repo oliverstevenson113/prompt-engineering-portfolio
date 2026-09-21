@@ -1,5 +1,3 @@
-Markdown
-
 # Complex Concept Simplifier
 
 A structured, zero-shot chain-of-thought prompt designed to transform complex academic topics or notes into easy-to-understand explanations with real-world analogies.

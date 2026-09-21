@@ -7,6 +7,11 @@ A structured, zero-shot chain-of-thought prompt designed to transform complex ac
 ## Overview
 When studying complex subjects, textbook definitions can often feel dry and confusing. This prompt leverages a master communicator persona and structured output formatting to break down hard topics step-by-step, making them accessible and memorable for learners.
 
+## Use Cases 
+* **Exam Preparation & AP Review:** Breaking down complex biological cycles, physics laws, or historical movements into structured study guides.
+* **Peer Tutoring:** Providing mentors and tutors with relatable real-world analogies to explain difficult abstractions.
+* **Self-Directed Learning:** Digesting dense technical documentation or scientific research notes rapidly.
+
 ## Framework & Technique Used
 - **Structure:** R-T-F-C (Role, Task, Format, Constraints)
 - **Technique:** Zero-Shot Chain-of-Thought

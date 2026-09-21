@@ -1,5 +1,3 @@
-Markdown
-
 # Code Bug Explainer & Fixer
 
 A structured, chain-of-thought prompt designed to help beginner programmers debug code errors, understand underlying programming concepts, and learn best practices without receiving confusing technical jargon or unexplained code dumps.

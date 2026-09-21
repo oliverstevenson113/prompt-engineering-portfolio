@@ -22,7 +22,25 @@ The prompt yields three categorized, ready-to-use bullet points:
 2. **Leadership-Focused:** Highlights initiative, cross-functional collaboration, ownership, or mentorship.
 3. **Efficiency-Focused:** Emphasizes workflow optimization, time savings, procedural improvements, or resource management.
 
+All bullets strictly adhere to the `[Action Verb] + [Core Task/Context] + [Measurable Result/Impact]` structure.
+
+## Examples Reference
+Review raw baseline outputs, optimized results, and evaluator score breakdowns in the [`examples/`](./examples/) directory:
+* [`examples/naive-output.md`](./examples/naive-output.md)
+* [`examples/designed-output.md`](./examples/designed-output.md)
+
 ## How to Use
 1. Copy the prompt text from `prompt.md`.
 2. Replace the **Input Resume Bullet** section at the bottom with your own draft resume bullet.
 3. Paste it into your LLM of choice to get multiple professional variations of your achievement.
+
+## Customization Guidance
+* **Add Target Industry/Keywords:** Append a line beneath the input: `Target Industry/Role: [e.g., Software Engineering / Sales Operations]`.
+* **Insert Known Numbers:** If you have exact figures, add them as notes
+
+## Technical Details
+* **Recommended Models:** Claude 3.5 Sonnet, GPT-4o, or Gemini 1.5 Pro.
+* **Recommended Temperature:** 0.3 – 0.5 
+* **Context Requirements:** Zero external dependencies; self-contained in a single prompt execution.
+
+

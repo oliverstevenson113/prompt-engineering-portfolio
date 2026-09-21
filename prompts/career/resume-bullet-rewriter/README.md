@@ -7,6 +7,10 @@ A structured, few-shot prompt designed to transform vague resume bullet points i
 ## Overview
 Many job seekers write resume bullets that sound like passive job descriptions rather than active accomplishments. This prompt uses a professional career coach persona and a few-shot examples pattern to teach the AI the exact transformation style required to highlight metrics and impact.
 
+**Best for:**
+
+
+
 ## Framework & Technique Used
 - **Structure:** R-T-E-F (Role, Task, Examples, Format)
 - **Technique:** Few-Shot (Multi-shot learning via provided examples)

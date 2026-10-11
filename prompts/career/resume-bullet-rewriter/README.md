@@ -2,20 +2,31 @@ Markdown
 
 # Resume Bullet Point Optimizer
 
-A structured, few-shot prompt designed to transform vague resume bullet points into powerful, results-oriented achievement statements optimized for modern hiring standards.
+> *A structured, few-shot prompt designed to make vague resume bullet points into results-oriented achievement statements optimized for modern hiring standards.
 
 ## Overview
 Many job seekers write resume bullets that sound like passive job descriptions rather than active accomplishments. This prompt uses a professional career coach persona and a few-shot examples pattern to teach the AI the exact transformation style required to highlight metrics and impact.
 
-## Use Cases
-- **Career Transitions:** reframing daily duties from a previous industry into universally valued achievements.
-- **Internship and Early-Career Resumes:** Elevating school club involvement, class projects, or entry-level roles into professional statements.
-- **Targeted Resume Polishing:** Generating distinct angles tailored to match specific job descriptions.
+**Best for:**
+- Career Transitions: reframing work done from a previous industry into universally valued achievements.
+- Internship and Early-Career Resumes: Elevating club involvement, class projects, or entry-level roles into professional statements.
+- Targeted Resume Polishing: Generating distinct angles tailored to match specific job descriptions.
 
-## Framework & Technique Used
-- **Structure:** R-T-E-F (Role, Task, Examples, Format)
-- **Technique:** Few-Shot (Multi-shot learning via provided examples)
+**Structure:** R-T-E-F (Role, Task, Examples, Format)
+**Technique:** Few-Shot (Multi-shot learning via provided examples)
+**Output:** Three categorized bullet points (Metrics-Focused, Leadership-Focused, Efficiency-Focused) adhering to an Action Verb + Core Task/Context + Measurable Result/Impact format.
 
+---
+
+## Quick Start
+1. Open [`prompt.md`](./prompt.md) and copy the template.
+2. Replace the placeholders:
+- `[PLACEHOLDER_1]`: [what to put here]
+- `[PLACEHOLDER_2]`: [what to put here]
+3. Paste it into your AI model of choice and run it.
+4. Review the output and adapt it to what you need.
+---
+## Examples
 ## Output Description
 The prompt yields three categorized, ready-to-use bullet points:
 1. **Metrics-Focused:** Prioritizes quantifiable numbers, percentages, and scale of impact.

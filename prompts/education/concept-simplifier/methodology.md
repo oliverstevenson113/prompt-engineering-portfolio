@@ -45,7 +45,10 @@ Explain photosynthesis based on these notes: Plants take in sunlight, water, and
 | Naive baseline | 35/100 | This is a basic, naive prompt that provides good source notes but fails to set output boundaries, structural frameworks, or persona constraints. |
 | Version 1/Final | 100/100 | By establishing an expert communicator role (Feynman/Nye persona), requiring step-by-step reasoning, and enforcing a rigid 4-part output format, the prompt ensures a clear explanation tailored for high school students. |
 
+---
+
 **What testing showed:** Zero-shot CoT instructions prevent the model from jumping straight to jargon-laden summaries, forcing it to first establish the foundation.
+
 **What I learned:** Providing a structural constraint and asking the model to think step-by-step make the educational outputs much better.
 
 ---

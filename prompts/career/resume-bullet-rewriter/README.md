@@ -29,9 +29,8 @@ Many job seekers write resume bullets that sound like passive job descriptions r
 ---
 
 ## Examples
-Review raw baseline outputs, optimized results, and evaluator score breakdowns in the [`examples/`](./examples/) directory:
-* [`examples/naive-output.md`](./examples/naive-output.md)
-* [`examples/designed-output.md`](./examples/designed-output.md)
+See the [`examples/`](./examples/) folder for filled-in demonstrations showing the
+prompt and the resulting output.
 
 ---
 

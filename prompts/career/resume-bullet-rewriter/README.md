@@ -2,7 +2,7 @@ Markdown
 
 # Resume Bullet Point Optimizer
 
-> *A structured, few-shot prompt designed to make vague resume bullet points into results-oriented achievement statements optimized for modern hiring standards.
+> *A structured, few-shot prompt designed to make vague resume bullet points into results-oriented achievement statements optimized for modern hiring standards.*
 
 ## Overview
 Many job seekers write resume bullets that sound like passive job descriptions rather than active accomplishments. This prompt uses a professional career coach persona and a few-shot examples pattern to teach the AI the exact transformation style required to highlight metrics and impact.

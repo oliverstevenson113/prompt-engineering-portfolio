@@ -46,9 +46,15 @@ Fix this error for me in Python: TypeError: can only concatenate str (not int) t
 | Final/Version 1 | 100/100 | Defined a mentor persona, outlined a specific 4-step reasoning process, and required plain-English explanations with commented code, ensuring an educational tutorial. |
 
 **What testing showed:** Structuring the Chain-of-Thought sequence chronologically makes the AI more of a teacher than a problem solver.
+
 **What I learned:** Forcing an explanation before code generation prevents the AI from just giving the answer, allowing the user to actually learn.
+
 ---
+
 ## Strengths and Limitations
+
 **Works well when:** Eliminating the overload of information by breaking down errors and code into manageable pieces.
+
 **Struggles when:** A large codebase of over 100 lines is input with multiple runtime bugs; the prompt may attempt to fix all issues simultaneously rather than tackling them one at a time.
+
 **Would improve next:** Add an optional conditional directive for if there is multiple independent errors then it will identify the primary blocking error first and guide the user through testing that fix before proceeding.

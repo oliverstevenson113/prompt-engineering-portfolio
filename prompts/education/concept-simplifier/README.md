@@ -3,7 +3,7 @@
 > *A structured, zero-shot chain-of-thought prompt designed to change complex academic topics or notes into easy-to-understand explanations with real-world analogies.*
 
 ## Overview
-When studying complex subjects, textbook definitions can often feel dry and confusing. This prompt uses a master communicator persona and structured output formatting to break down hard topics step-by-step, making them accessible and memorable for learners.
+When studying complex subjects, textbook definitions can often feel dry and confusing. This prompt uses a master communicator persona and structured output formatting to break down hard topics step-by-step, making them easy to learn.
 
 **Best for:**
 - Exam Preparation and AP Review: Breaking down complex and confusing topics into study guides.
@@ -37,10 +37,9 @@ prompt and the resulting output.
 
 ## Customization Tips
 
-- **Adjust Reading Level:** Change the target audience in the Task line.
-- **Change Communicator Style:** Adapt the Role persona.
-- **Want more detail?** Add a stipulation to clarify what parts you need more detail on.
-
+- **Want more detail?** Add a rule under Constraints requesting hidden spoiler answers for the Quick Test questions, or ask the AI to provide multiple real-world analogies.
+- **Want it shorter?** Modify the Format section to remove the 'Quick Test' requirement, reducing the output to just the core explanation and analogy.
+- **Different context?** Change the target audience in the Task line to adjust the reading level, or change the Role persona to match a different communicator style.
 ---
 
 ## Technical Details

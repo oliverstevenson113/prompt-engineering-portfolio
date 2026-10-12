@@ -7,7 +7,7 @@
 Standard AI queries often return isolated, copy-paste code blocks without explaining *why* the bug occurred or how to prevent it. This prompt establishes a patient senior engineering mentor persona and enforces a logical, step-by-step diagnostic sequence that helps coders learn from mistakes.
 
 **Best for:**
-- Introductory Programming Support: Assisting beginners working through foundational languages (Python, JavaScript, C++) with syntax and type errors.
+- Introductory Programming Support: Assisting beginners working through foundational languages with syntax and type errors.
 - Homework & Lab Debugging: Helping computer science students isolate bugs without cheating.
 - Refactoring Mentorship: Explaining subtle logic flaws, off-by-one errors, or variable scoping mistakes in plain language.
 
@@ -40,9 +40,9 @@ prompt and the resulting output.
 
 ## Customization Tips
 
-- **Adjust Experience Level:** Change the `Context` section to reflect a more advanced learner.
-- **Want it shorter?** Clarify what exactly you need to be clarified.
-- **Request Alternative Approaches:** Add a line under 'Steps for Your Response' asking for multiple ways to fix the issue.
+- **Want more detail?** Add a line under 'Steps for Your Response' asking the AI to provide alternative approaches or multiple ways to fix the issue.
+- **Want it shorter?** Simplify the 'Steps for Your Response' section to only include 'Locate the Issue' and 'Provide the Solution', skipping the deep-dive conceptual explanation.
+- **Different context?** Adjust the `Context` section to reflect a more advanced learner, or enforce specific frameworks by adding version constraints under 'Input Data' (e.g., React 18, Python 3.10).
 
 ---
 

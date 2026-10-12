@@ -1,8 +1,10 @@
 # Resume Bullet Point Optimizer Template
 
 ## Overview
-**Purpose:** Changes vague or poorly written resume bullet points into good and high-impact achievement statements tailored for Applicant Tracking Systems and hiring managers.
+**Purpose:** Changes poorly written resume bullet points into good and detailed achievement statements tailored for Applicant Tracking Systems and hiring managers.
+
 **Structure:** R-T-E-F (Role, Task, Examples, Format).
+
 **Technique:** Few-shot.
 
 ---
@@ -43,5 +45,5 @@ Provide 3 variations of the rewritten bullet point based on the input below:
 
 **Constraints:** Outputs must strictly adhere to the `[Action Verb] + [Core Task/Context] + [Measurable Result/Impact]` structure. No conversational filler or introductory text from the AI.
 
-**Tone and Style:** Professional, authoritative, and action-oriented.
+**Tone and Style:** Professional, authoritative, action-oriented.
 

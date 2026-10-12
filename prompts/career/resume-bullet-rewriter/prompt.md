@@ -29,8 +29,8 @@ Provide 3 variations of the rewritten bullet point based on the input below:
 3. **Efficiency-Focused:** Emphasizes speed or optimization.
 
 **Input:**
--**Bullet:** [INPUT_BULLET]
--**Target Role/Industry:** [TARGET_INDUSTRY]
+- **Bullet:** [INPUT_BULLET]
+- **Target Role/Industry:** [TARGET_INDUSTRY]
 
 ---
 

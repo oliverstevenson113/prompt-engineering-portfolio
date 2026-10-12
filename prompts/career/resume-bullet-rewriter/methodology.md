@@ -49,6 +49,9 @@ Make this resume bullet sound better: Helped manage social media pages and poste
 **What I learned:** A structured prompt with concrete examples forces the AI to transition into a specialized, professional output format.
 
 ## Strengths and Limitations
+
 **Works well when:** When it is given a bullet pint with at least a few specific details and when all placeholders are filled out.
+
 **Struggles when:** The user supplies a bullet with zero context or quantifiable activity, forcing the model to estimate placeholder metrics.
+
 **Would improve next:** Incorporate an interactive preliminary questionnaire step that prompts the user for rough estimations prior to generating final bullets.

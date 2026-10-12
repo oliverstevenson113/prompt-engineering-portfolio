@@ -1,5 +1,3 @@
-Markdown
-
 # Resume Bullet Point Optimizer
 
 > *A structured, few-shot prompt designed to make vague resume bullet points into results-oriented achievement statements optimized for modern hiring standards.*
@@ -12,8 +10,10 @@ Many job seekers write resume bullets that sound like passive job descriptions r
 - Internship and Early-Career Resumes: Elevating club involvement, class projects, or entry-level roles into professional statements.
 - Targeted Resume Polishing: Generating distinct angles tailored to match specific job descriptions.
 
-**Structure:** R-T-E-F (Role, Task, Examples, Format)
-**Technique:** Few-Shot (Multi-shot learning via provided examples)
+**Structure:** R-T-E-F (Role, Task, Examples, Format).
+
+**Technique:** Few-Shot (Multi-shot learning via provided examples).
+
 **Output:** Three categorized bullet points (Metrics-Focused, Leadership-Focused, Efficiency-Focused) adhering to an Action Verb + Core Task/Context + Measurable Result/Impact format.
 
 ---
@@ -35,7 +35,7 @@ prompt and the resulting output.
 ---
 
 ## Customization Tips
-_ **Want more detail?** Add a constraint to the prompt asking the AI to add on to the contextual scope.
+- **Want more detail?** Add a constraint to the prompt asking the AI to add on to the contextual scope.
 - **Want it shorter?** Add a constraint limiting the output to a specific word count.
 - **Different context?** Adjust the `[TARGET_INDUSTRY]` placeholder to force the AI to use more specific vocabulary for the targeted industry.
 

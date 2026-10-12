@@ -54,6 +54,9 @@ Explain photosynthesis based on these notes: Plants take in sunlight, water, and
 ---
 
 ## Strengths and Limitations
+
 **Works well when:** Delivering a bridge between abstract scientific or historical processes and basic intuition, complete with retention testing.
+
 **Struggles when:** Handling highly multidimensional topics (such as quantum mechanics or multi-front geopolitical conflicts) which can become oversimplified if forced entirely into a single analogy.
+
 **Would improve next:** Add an optional constraint allowing users to request a "Common misconceptions" section to address frequent exam traps.
